@@ -75,6 +75,10 @@ body {
   width: 30rem;
   padding: 2rem 4rem;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .donwload__title {
@@ -100,5 +104,30 @@ body {
 }
 
 .download__button:hover {
-  background-color: #2cb17e;
+  background-color: #165e43;
+  color: var(--white);
+}
+
+.download__image {
+  width: 5rem;
+  aspect-ratio: 4 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__layout {
+  margin-top: 5rem;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__text {
+  color: var(--white);
+  text-align: center;
+  margin: 0rem;
 }
